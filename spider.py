@@ -17,8 +17,8 @@ def get_one_page(url):
     except RequestException:
         return None
 
-# def parse_one_page(html):
-#     pattern = re.compile('')
+def parse_one_page(html):
+    pattern = re.compile('')
 
 
 def main():
